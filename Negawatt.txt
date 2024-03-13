@@ -1,0 +1,63 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Negawatt Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "negawattfolder"})
+local Tab = Window:MakeTab({
+	Name = "Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Multi Scripter X",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+		OrionLib:MakeNotification({
+			Name = "Succesfully loaded Multi scripter X",
+			Content = "negawatt??",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Penis FE",
+	Callback = function()
+	loadstring(game:HttpGet("https://pastes.io/raw/qsfk3hkuwr"))()
+		OrionLib:MakeNotification({
+			Name = "Succesfully loaded Penis FE",
+			Content = "negawatt??",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "MastaHub(Made by MasterMZ)",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MastersMZ-Scripts/MastaHub/main/Loader.lua",true))()
+		OrionLib:MakeNotification({
+			Name = "Succesfully loaded Masta Hub",
+			Content = "negawatt??",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Toggle KillBricks(Keybind = Z)",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/ToggleKillBricksScript.txt",true))()
+		OrionLib:MakeNotification({
+			Name = "Succesfully loaded Toggle KillBricks",
+			Content = "Keybind = Z",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+  	end    
+})
+
+OrionLib:Init()
