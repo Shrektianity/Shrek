@@ -60,4 +60,13 @@ Tab:AddButton({
   	end    
 })
 
+
+Tab:AddButton({
+	Name = "Destroy Gui",
+	Callback = function()
+           OrionLib:Destroy()
+  	end    
+})
+
+
 OrionLib:Init()
