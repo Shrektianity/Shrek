@@ -96,5 +96,18 @@ Tab:AddButton({
 })
 
 
+Tab:AddButton({
+	Name = "Arsenal script Owl Hub",
+	Callback = function()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+              OrionLib:MakeNotification({
+			Name = "Succesfully loaded Owl Hub",
+			Content = "negawatt??",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
+  	end    
+})
+
 
 OrionLib:Init()
