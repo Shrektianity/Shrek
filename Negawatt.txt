@@ -73,6 +73,12 @@ Tab:AddButton({
 	Name = "Destroy Gui",
 	Callback = function()
            loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt",true))()
+              OrionLib:MakeNotification({
+			Name = "Succesfully loaded Toggle KillBricks",
+			Content = "Keybind = Z",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
   	end    
 })
 
