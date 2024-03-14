@@ -70,7 +70,7 @@ Tab:AddButton({
 
 
 Tab:AddButton({
-	Name = "Destroy Gui",
+	Name = "Replication GUI(Not FE)",
 	Callback = function()
            loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt",true))()
               OrionLib:MakeNotification({
