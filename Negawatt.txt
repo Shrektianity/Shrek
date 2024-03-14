@@ -74,7 +74,7 @@ Tab:AddButton({
 	Callback = function()
            loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt",true))()
               OrionLib:MakeNotification({
-			Name = "Succesfully loaded Toggle KillBricks",
+			Name = "Succesfully loaded Replication GUI",
 			Content = "Keybind = Z",
 			Image = "rbxassetid://4483345998",
 			Time = 5
