@@ -69,4 +69,12 @@ Tab:AddButton({
 })
 
 
+Tab:AddButton({
+	Name = "Destroy Gui",
+	Callback = function()
+           https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt
+  	end    
+})
+
+
 OrionLib:Init()
