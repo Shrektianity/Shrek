@@ -48,7 +48,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Toggle KillBricks(Keybind = Z)",
+	Name = "Toggle KillBricks(Not working)",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/ToggleKillBricksScript.txt",true))()
 		OrionLib:MakeNotification({
