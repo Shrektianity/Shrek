@@ -72,7 +72,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Destroy Gui",
 	Callback = function()
-           https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Shrektianity/Shrek/main/FEReplicationScript.txt",true))()
   	end    
 })
 
